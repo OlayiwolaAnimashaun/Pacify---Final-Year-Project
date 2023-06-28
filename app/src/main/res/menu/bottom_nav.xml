@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_favourites"
+        android:enabled="true"
+        android:icon="@drawable/favourite_button"
+        android:title="@string/stored_results"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/home_button"
+        android:title="@string/home"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_signout"
+        android:enabled="true"
+        android:icon="@drawable/logout_button"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
